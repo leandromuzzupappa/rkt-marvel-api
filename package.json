@@ -1,8 +1,9 @@
 {
-  "name": "rocket-minimal-starter",
+  "name": "marvel-comics",
   "version": "0.0.1",
   "private": true,
-  "description": "Only includes the minimal basics",
+  "description": "marvel api test with rocket",
+  "author": "Leandro Muzzupappa",
   "type": "module",
   "scripts": {
     "build": "rocket build",
@@ -15,5 +16,7 @@
     "@rocket/engine": "^0.2.0",
     "lit": "^2.3.0"
   },
-  "@rocket/template-name": "Minimal Starter"
+  "imports": {
+    "#components/*": "./site/src/components/*"
+  }
 }
