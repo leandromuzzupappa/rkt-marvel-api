@@ -1,6 +1,6 @@
 {
-  "name": "Rocket",
-  "short_name": "Rocket",
+  "name": "Marvel-comics",
+  "short_name": "MC",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#ffffff",
+  "theme_color": "#d84127",
   "background_color": "#ffffff",
   "display": "standalone"
 }
