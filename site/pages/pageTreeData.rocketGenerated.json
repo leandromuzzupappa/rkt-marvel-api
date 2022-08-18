@@ -1,5 +1,5 @@
 {
-  "title": "Rocket",
+  "title": "Marvel-Comics",
   "h1": "Rocket",
   "name": "Rocket",
   "menuLinkText": "Rocket",
@@ -7,16 +7,8 @@
   "outputRelativeFilePath": "index.html",
   "sourceRelativeFilePath": "index.rocket.html",
   "level": 0,
-  "children": [
-    {
-      "title": "Rocket",
-      "h1": "About",
-      "name": "About",
-      "menuLinkText": "About",
-      "url": "/about/",
-      "outputRelativeFilePath": "about/index.html",
-      "sourceRelativeFilePath": "about.rocket.js",
-      "level": 1
-    }
-  ]
+  "children": [],
+  "components": {
+    "header-element": "/site/components/header-element/header-element.js::HeaderElement"
+  }
 }
